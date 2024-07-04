@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <Title>Aagneyaa's Experiment</Title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <style>
+            
+            .box {
+                background-color: rgb(0, 0, 0);
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .box a {
+                padding: 15px;
+                background-color: #65af70;
+                border-radius: 3px;
+                text-decoration: none;
+            }
+
+            .modal {
+                position: fixed;
+                inset: 0;
+                background: #833A3A;
+                display: none;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .content {
+                position: relative;
+                background: rgb(205, 255, 210);
+                padding: 1em 2em;
+                border-radius: 4px;
+            }
+
+            .modal:target {
+                display: flex;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <a href="#popup-box"
+                >Click Me for information!</a
+            >
+        </div>
+        <div id="popup-box" class="modal">
+            <div class="content">
+                <h1 style="color: rgb(0, 0, 0)">
+                    Aim of the project
+                </h1>
+                <p>To know if using fertilizer actually helps boost plant growth</p>
+                <h1 style="color: rgb(0, 0, 0)">
+                    Hypothesis
+                </h1>
+                <p>If a plant is given fertilizer to boost its growth then it will grow faster than a plant without compost</p>
+                <h1 style="color: rgb(0, 0, 0)">
+                    Materials
+                </h1>
+                <p>➢Seeds
+                    </p><p>
+                        ➢Soil
+                    </p><p>
+                        ➢Homemade Fertilizer
+                </p>
+                <h1 style="color: rgb(0, 0, 0)">
+                    Process
+                </h1>
+                <p>Step 1: Segregate 2 pots with the same seed and same soil type
+                    </p>
+                    <p>
+                    Step 2:Add fertilizer/compost to one of them and keep them in a place with good sunlight
+                </p>
+                <p>
+                    Step 3:water daily with the same amount of water
+                    </p>
+                    <p>
+                    Step 4:Measure time taken for germination
+                </p>
+                <p>
+                    Step 5:Leave for 2 weeks and see which grew more</p>
+                </p>
+                <h1>
+                    Feedback Form
+                    <br>
+                    <a href="https://forms.gle/osTJCCwgb1Grf54k9">
+                        <button>    Click me to give feedback
+                    </button>
+                    </a>
+                </h1>
+                 
+                
+                <a
+                    href="#"
+                    style="
+                        position: absolute;
+                        top: 10px;
+                        right: 10px;
+                        color: #000000;
+                        font-size: 30px;
+                        text-decoration: none;
+                    "
+                    >&times;</a
+                >
+            </div>
+        </div>
+       
+        
+    </body>
+</html>
